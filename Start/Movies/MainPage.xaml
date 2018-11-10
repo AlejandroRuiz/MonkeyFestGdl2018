@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:local="clr-namespace:Movies"
+  x:Class="Movies.MainPage">
+    <!--
+    <ContentPage.BindingContext>
+        <vm:MainPageViewModel />
+    </ContentPage.BindingContext> 
+    <NavigationPage.TitleView>
+        <SearchBar Text="{Binding SearchTerm}" Placeholder="Enter search term" BackgroundColor="White" />
+    </NavigationPage.TitleView>
+    <Grid>
+        <ListView CachingStrategy="RecycleElement" SelectionMode="None" Footer="" IsRefreshing="{Binding IsBusy}" RowHeight="100" ItemsSource="{Binding Movies}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell Height="100">
+                        <StackLayout Orientation="Horizontal">
+                            <ffimage:CachedImage HeightRequest="100" WidthRequest="100" Aspect="AspectFill" LoadingPlaceholder="movie_placeholder" Source="{Binding ArtworkUrl100}" />
+                            <StackLayout VerticalOptions="Center">
+                                <Label FontSize="Medium" FontAttributes="Bold" VerticalTextAlignment="Center" Text="{Binding TrackName}" />
+                                <Label FontSize="Micro" VerticalTextAlignment="Center" Text="{Binding ArtistName}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="NO RESULTS" IsVisible="{Binding NoResults}" />
+    </Grid>
+    -->
+</ContentPage>
